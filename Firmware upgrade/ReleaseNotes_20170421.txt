@@ -1,0 +1,45 @@
+/********************************************************/
+version 1.0.2.6:
+features
+1. add at+band command to get the loraWAN region info.
+2. open EU868 channel 0-2 to customer redefined.
+3. change EU868 duty cycle config to disenable.
+4. add at+dr command to change the send datarate temporary.
+
+bugs
+1. fix at+set_config=rx2:datarate,frequency
+2. fix at+uart return info
+3. fix at+set_config=dr:datarate use to change the default datarate
+
+/********************************************************/
+version 1.0.2.3:
+features
+1. sleep power consumption fix to 7.2uA
+
+bugs
+
+/********************************************************/
+version 1.0.2.2:
+features
+
+bugs
+1. fix at+txc cnts change limits 100 to 65535
+2. fix bug data flash abnormal to factory config
+
+/********************************************************/
+version 1.0.1.4:
+features
+
+bugs
+1. fix rx_delay1 setting
+2. fix join abp way to load new config
+
+/********************************************************/
+version 1.0.1.2:
+features
+1. add LoraP2P interfaces 
+
+version 1.0.1.0:
+
+1. support LoraWAN V1.0.1 ClassA 
+2. fixed some bugs, release first version
